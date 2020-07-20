@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj": {}
+  },
+  "projects": {
+    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
+        "projectName": "ECommerce.API.Orders",
+        "projectPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
+        "packagesPath": "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\",
+        "outputPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ganesh.Shrestha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
