@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {}
+    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {}
   },
   "projects": {
-    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {
+    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+        "projectUniqueName": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
         "projectName": "ECommerce.API.Search",
-        "projectPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+        "projectPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
         "packagesPath": "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\",
-        "outputPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Search\\obj\\",
+        "outputPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

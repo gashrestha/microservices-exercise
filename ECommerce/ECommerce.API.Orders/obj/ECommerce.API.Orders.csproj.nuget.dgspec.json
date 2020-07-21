@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj": {}
+    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj": {}
   },
   "projects": {
-    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj": {
+    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
+        "projectUniqueName": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
         "projectName": "ECommerce.API.Orders",
-        "projectPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
+        "projectPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
         "packagesPath": "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\",
-        "outputPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\ECommerce\\ECommerce.API.Orders\\obj\\",
+        "outputPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Orders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
