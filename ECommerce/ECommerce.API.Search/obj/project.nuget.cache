@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "A2VvIv3WPjVSuk9dj7OvWTsIYnITgBiKd/3enhSSF7a5xn6irYWarC4a7sn6qZQp4lAqC1p9/r/OTz0hZr6T6Q==",
+  "success": true,
+  "projectFilePath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.http\\3.1.6\\microsoft.extensions.http.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.http.polly\\3.1.6\\microsoft.extensions.http.polly.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\microsoft.extensions.logging.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
+    "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

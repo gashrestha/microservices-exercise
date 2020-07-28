@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "AutoMapper/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -1132,7 +1132,7 @@
       },
       "ECommerce.API.Products/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "Microsoft.EntityFrameworkCore": "3.1.6",
@@ -4201,7 +4201,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "ECommerce.API.Products >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.6",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -4231,14 +4231,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj": {
               "projectPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj"
@@ -4253,7 +4254,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -4294,7 +4296,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

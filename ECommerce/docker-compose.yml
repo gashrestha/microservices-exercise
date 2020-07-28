@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ecommerce.api.search:
+    image: ${DOCKER_REGISTRY-}ecommerceapisearch
+    build:
+      context: .
+      dockerfile: ECommerce.API.Search\Dockerfile
