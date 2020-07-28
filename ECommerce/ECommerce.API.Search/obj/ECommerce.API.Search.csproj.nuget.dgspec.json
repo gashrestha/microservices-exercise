@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {}
+    "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {}
   },
   "projects": {
-    "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {
+    "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+        "projectUniqueName": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
         "projectName": "ECommerce.API.Search",
-        "projectPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+        "projectPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
         "packagesPath": "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\",
-        "outputPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\obj\\",
+        "outputPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Search\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

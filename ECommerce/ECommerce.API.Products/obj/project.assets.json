@@ -868,11 +868,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
+      "projectUniqueName": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
       "projectName": "ECommerce.API.Products",
-      "projectPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
+      "projectPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
       "packagesPath": "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\",
-      "outputPath": "\\\\hrp.local\\personnel_shares\\G-L\\i80405\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\obj\\",
+      "outputPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -933,7 +933,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
