@@ -20,6 +20,8 @@ namespace ECommerce.API.Search.Controllers
             this.searchService = searchService;
         }
 
+        //Call this method from postman using a body parameter JSON Format like {"CustomerId": 1}
+        //or using swagger ui : http://localhost:55455/index.html
         [HttpPost]
         public async Task<IActionResult> SearchAsync(SearchTerm term)
         {

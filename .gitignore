@@ -165,10 +165,10 @@ $RECYCLE.BIN/
 #######################
 ## ECommerce specific
 ###########
-ECommerce/.vs/*
-ECommerce.API.Customers/obj/*
-ECommerce.API.Orders/obj/*
-ECommerce.API.Products/obj/*
-ECommerce.API.Products/obj/*
-ECommerce.API.Products.Tests/obj/*
-ECommerce.API.Search/obj/*
+
+/ECommerce/.vs/*
+/ECommerce/ECommerce.API.Customers/obj/*
+/ECommerce/ECommerce.API.Orders/obj/*
+/ECommerce/ECommerce.API.Products/obj/*
+/ECommerce/ECommerce.API.Products.Tests/obj/*
+/ECommerce/ECommerce.API.Search/obj/*
