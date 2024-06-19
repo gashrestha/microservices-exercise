@@ -10,16 +10,11 @@ using System.Threading.Tasks;
 
 namespace ECommerce.API.Search.Services
 {
-    public class OrdersService : IOrdersService
+    public class OrdersService(IHttpClientFactory httpClientFactory, ILogger<OrdersService> logger) : IOrdersService
     {
-        private readonly IHttpClientFactory httpClientFactory;
-        private readonly ILogger<OrdersService> logger;
+        private readonly IHttpClientFactory httpClientFactory = httpClientFactory;
+        private readonly ILogger<OrdersService> logger = logger;
 
-        public OrdersService(IHttpClientFactory httpClientFactory, ILogger<OrdersService> logger)
-        {
-            this.httpClientFactory = httpClientFactory;
-            this.logger = logger;
-        }
         public async Task<(bool IsSuccess, IEnumerable<Order> Orders, string ErrorMessage)> GetOrdersAsync(int customerId)
         {
             try
