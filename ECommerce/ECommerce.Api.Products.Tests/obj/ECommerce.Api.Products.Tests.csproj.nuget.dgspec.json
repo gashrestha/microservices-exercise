@@ -1,38 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {}
+    "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {}
   },
   "projects": {
-    "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {
+    "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+        "projectUniqueName": "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
         "projectName": "ECommerce.Api.Products.Tests",
-        "projectPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+        "projectPath": "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
         "packagesPath": "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\",
-        "outputPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\obj\\",
+        "outputPath": "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.Api.Products.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Ganesh.Shrestha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj": {
-                "projectPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj"
+              "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj": {
+                "projectPath": "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj"
               }
             }
           }
@@ -41,31 +43,40 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.5.0, )"
+              "version": "[17.10.0, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[6.0.2, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.8.1, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.8.1, )"
             }
           },
           "imports": [
@@ -74,48 +85,48 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj": {
+    "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
+        "projectUniqueName": "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
         "projectName": "ECommerce.API.Products",
-        "projectPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
+        "projectPath": "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
         "packagesPath": "C:\\Users\\Ganesh.Shrestha\\.nuget\\packages\\",
-        "outputPath": "P:\\Ganesh.Shrestha\\Learning\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\obj\\",
+        "outputPath": "E:\\hrp\\arch\\microservices-exercise\\ECommerce\\ECommerce.API.Products\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Ganesh.Shrestha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -123,23 +134,28 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[12.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
@@ -148,7 +164,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -160,7 +177,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
