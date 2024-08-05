@@ -8,12 +8,8 @@ using System.Threading.Tasks;
 
 namespace ECommerce.API.Customers.Db
 {
-    public class CustomersDbContext : DbContext
+    public class CustomersDbContext (DbContextOptions options) : DbContext (options)
     {
         public DbSet<Customer> Customers { get; set; }
-        public CustomersDbContext(DbContextOptions options) : base(options)
-        {
-
-        }
     }
 }

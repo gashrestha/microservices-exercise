@@ -7,18 +7,12 @@ using System.Threading.Tasks;
 
 namespace ECommerce.API.Search.Services
 {
-    public class SearchService : ISearchService
+    public class SearchService(IOrdersService ordersService, IProductsService productsService, ICustomersService customersService) : ISearchService
     {
-        private readonly IOrdersService ordersService;
-        private readonly IProductsService productsService;
-        private readonly ICustomersService customersService;
+        private readonly IOrdersService ordersService = ordersService;
+        private readonly IProductsService productsService = productsService;
+        private readonly ICustomersService customersService = customersService;
 
-        public SearchService(IOrdersService ordersService, IProductsService productsService, ICustomersService customersService)
-        {
-            this.ordersService = ordersService;
-            this.productsService = productsService;
-            this.customersService = customersService;
-        }
         public async Task<(bool IsSuccess, dynamic SearchResults)> SearchAsync(int customerId)
         {
             var customersResult = await customersService.GetCustomersAsync(customerId);

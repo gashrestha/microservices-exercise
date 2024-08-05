@@ -1,4 +1,5 @@
-﻿using ECommerce.API.Customers.Interfaces;
+﻿using Asp.Versioning;
+using ECommerce.API.Customers.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,18 +8,15 @@ using System.Threading.Tasks;
 
 namespace ECommerce.API.Customers.Controllers
 {
+    [ApiVersion(1, Deprecated = true)]
+    [ApiVersion(2)]
+    [Route("api/v{v:apiVersion}/customers")]
     [ApiController]
-    [Route("api/customers")]
-    public class CustomersController : ControllerBase
+    public class CustomersController(ICustomersProvider customersProvider) : ControllerBase
     {
-        private readonly ICustomersProvider customersProvider;
+        private readonly ICustomersProvider customersProvider = customersProvider;
 
-        public CustomersController(ICustomersProvider customersProvider)
-        {
-            this.customersProvider = customersProvider;
-
-        }
-
+        [MapToApiVersion(1)]
         [HttpGet]
         public async Task<IActionResult> GetCustomersAsync()
         {
@@ -30,6 +28,7 @@ namespace ECommerce.API.Customers.Controllers
             return NotFound();
         }
 
+        [MapToApiVersion(2)]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCustomerAsync(int id)
         {

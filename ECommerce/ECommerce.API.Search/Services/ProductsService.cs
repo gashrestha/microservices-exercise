@@ -11,16 +11,11 @@ using System.Threading.Tasks;
 
 namespace ECommerce.API.Search.Services
 {
-    public class ProductsService : IProductsService
+    public class ProductsService(IHttpClientFactory httpClientFactory, ILogger<ProductsService> logger) : IProductsService
     {
-        private readonly IHttpClientFactory httpClientFactory;
-        private readonly ILogger<ProductsService> logger;
-
-        public ProductsService(IHttpClientFactory httpClientFactory, ILogger<ProductsService> logger)
-        {
-            this.httpClientFactory = httpClientFactory;
-            this.logger = logger;
-        }
+        private readonly IHttpClientFactory httpClientFactory = httpClientFactory;
+        private readonly ILogger<ProductsService> logger = logger;
+        
         public async Task<(bool IsSuccess, IEnumerable<Product> Products, string ErrorMessage)> GetProductsAsync()
         {
             try

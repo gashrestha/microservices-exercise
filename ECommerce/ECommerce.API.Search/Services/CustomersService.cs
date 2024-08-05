@@ -10,22 +10,17 @@ using System.Threading.Tasks;
 
 namespace ECommerce.API.Search.Services
 {
-    public class CustomersService : ICustomersService
+    public class CustomersService(IHttpClientFactory httpClientFactory, ILogger<CustomersService> logger) : ICustomersService
     {
-        private readonly IHttpClientFactory httpClientFactory;
-        private readonly ILogger<CustomersService> logger;
-
-        public CustomersService(IHttpClientFactory httpClientFactory, ILogger<CustomersService> logger)
-        {
-            this.httpClientFactory = httpClientFactory;
-            this.logger = logger;
-        }
+        private readonly IHttpClientFactory httpClientFactory = httpClientFactory;
+        private readonly ILogger<CustomersService> logger = logger;
+        
         public async Task<(bool IsSuccess, dynamic Customer, string ErrorMessage)> GetCustomersAsync(int id)
         {
             try
             {
                 var client = httpClientFactory.CreateClient("CustomersService");
-                var response = await client.GetAsync($"api/customers/{id}");
+                var response = await client.GetAsync($"api/v2/customers/{id}");
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsByteArrayAsync();
